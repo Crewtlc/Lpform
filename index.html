@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loco Pilot Information Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Prior Intimation -Long Hours</h2>
+    <form id="lpForm">
+      <label for="cmsid"><bold>CMSID</bold></label>
+      <input type="text" id="cmsid" name="cmsid" placeholder="Enter CMSID" required>
+
+      <label for="lpName">Name of the LP</label>
+      <input type="text" id="lpName" name="lpName" placeholder="Enter Name of LP" required>
+
+      <label for="direction">Direction</label>
+      <select id="direction" name="direction" required>
+	        <option value="direction">direction</option>
+        <option value="Up">Up</option>
+        <option value="Down">Down</option>
+        <option value="Hq">Hq</option>
+      </select>
+
+      <label for="section">Section</label>
+      <select id="section" name="section" required>
+        <option value="Section">section</option>     
+        <option value="PSA UP">PSA UP</option>
+        <option value="PSA DN">PSA DN</option>
+        <option value="RV UP">RV UP</option>
+        <option value="RV DN">RV DN</option>
+	 <option value="KR UP">KR UP</option>
+        <option value="KR DN">KR DN</option>
+        <option value="KK1 UP">KK1 UP</option>
+        <option value="KK1 DN">KK1 DN</option>
+ 	<option value="KK2 UP">KK2 UP</option>
+        <option value="KK2 DN">KK2 DN</option>
+	<option value="Local">Local</option>
+
+      </select>
+
+      <label for="trainName">Train Name</label>
+      <input type="text" id="trainName" name="trainName" placeholder="Enter Train Name" required>
+
+      <label for="locoNo">Loco No</label>
+      <input type="text" id="locoNo" name="locoNo" placeholder="Enter Loco Number" required>
+
+      <label for="signOnDateTime">Sign On Date and Time</label>
+      <input type="datetime-local" id="signOnDateTime" name="signOnDateTime" required>
+
+      <label for="stationName">Current Station Name</label>
+      <input type="text" id="stationName" name="stationName" placeholder="Current Station Name" required>
+
+      <button type="submit">SUBMIT</button>
+    </form>
+	<p>Developed by Elect-OP Waltair Division</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
