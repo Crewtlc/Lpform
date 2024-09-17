@@ -10,7 +10,7 @@ form.addEventListener('submit', e => {
     body: new FormData(form)
   })
   .then(response => {
-    alert("Thank you! Your form is submitted successfully.");
+    alert("Your details have been recorded, and you will be relieved soon.");
     window.location.reload();  // Reload the page after form submission
   })
   .catch(error => console.error('Error!', error.message));
