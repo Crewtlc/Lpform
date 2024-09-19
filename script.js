@@ -1,5 +1,5 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycby-rEJ4rmbPcBic3dvV2zEx8zTd-a-wNPAY0na-Qmb5qXISjxL0vbYvmbauUQ3-PNYnDA/exec'
 
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxa7bxQxbOKKMLSOETBRYbJrNCWyVioqU6sG1cnlEAwa6RF_QpxQs7wjgOR3vt__eQj/execc'
 const form = document.forms['lpForm']
 
 form.addEventListener('submit', e => {
