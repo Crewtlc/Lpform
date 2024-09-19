@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzuwd6-28tsBLr54oMBdjREG1CePacIS8Ua4n9rT1zsDybBQFNQApUpjBRbf5hK5K56Fg/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxJunhspfdO57Cr58RV0dl1BNupbOxSIUxc9t5w5EbYAG7pjzSjx0WI172NHdA-2-YIHA/exec'
 
 const form = document.forms['lpForm']
 
