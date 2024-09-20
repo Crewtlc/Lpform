@@ -1,4 +1,4 @@
-document.getElementById('lpForm').addEventListener('submit', function(e) {
+document.getElementById('trainForm').addEventListener('submit', function(e) {
     e.preventDefault(); // Prevent form submission
 
     const submitButton = document.querySelector('button[type="submit"]');
