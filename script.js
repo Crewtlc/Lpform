@@ -23,7 +23,7 @@ document.getElementById('trainForm').addEventListener('submit', function(e) {
         <p>Loco No: ${locoNo}</p>
         <p>Sign On Date and Time: ${signOnDateTime}</p>
         <p>Current Station: ${currentStation}</p>
-    `;
+    ;
 
     // Optional: Re-enable the button after some time if necessary
     setTimeout(() => {
