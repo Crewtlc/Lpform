@@ -3,7 +3,7 @@ const form = document.forms['lpForm']
 
 form.addEventListener('submit', e => {
   e.preventDefault();  // Prevent the default form submission
-
+  alert("Wait! your form is submitting");
   fetch(scriptURL, {
     method: 'POST',
     body: new FormData(form)
