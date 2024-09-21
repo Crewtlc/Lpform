@@ -10,9 +10,9 @@ body {
 
 /* Container styles for the form */
 .container {
-  display : flex;
-  width: 900px;
-  height:1200px;
+display : flex,
+  width: 400px;
+height:1200px;
   margin: 80px auto;
   background-color: rgba(255, 253, 208); /* White background with transparency */
   padding: 20px;
