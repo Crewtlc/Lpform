@@ -65,7 +65,7 @@ button:hover {
 }
 
 p {
-  float: right;
+  float: inline-end;
 }
 
 .note{
@@ -74,9 +74,9 @@ p {
 }
 
 .mar-up{
-  margin-bottom: 0;
+  margin-bottom: 4px;
 }
 
 .mar-down{
-  margin-top: 0;
+  margin-top: 2px;
 }
