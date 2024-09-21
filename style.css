@@ -67,3 +67,16 @@ button:hover {
 p {
   float: right;
 }
+
+.note{
+  color: red;
+  font-weight: bold;
+}
+
+.mar-up{
+  margin-bottom: 0;
+}
+
+.mar-down{
+  margin-top: 0;
+}
